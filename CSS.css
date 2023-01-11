@@ -1,0 +1,134 @@
+body{
+    background-image: linear-gradient(to left, #141e30, #243b55);  /* Chrome 10-25, Safari 5.1-6 */
+    /*width: 1405px;*/
+    width: auto;
+    height: 500px;
+}
+
+header{
+    width: 101%;
+    height: 60px;
+    background-color: brown;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: fixed;
+    z-index: 2;
+}
+#imglogo{
+    filter: contrast(100%);
+}
+#logoBoxRight{
+    width: 400px;
+    float: right;
+    clear: both;
+}
+#logo{
+    font-family: 'Lobster', cursive;
+    padding-left: 30px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+    position: fixed;
+
+}main{
+    width: 100%;
+    background-color: none;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    height: 100%;
+    
+}
+#asideRight{
+    width: 500px;
+    height: 640px;
+    background-color: none;
+    overflow: scroll;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-right: -25px;
+    float: right;
+}
+#articleRight{
+    width: 440px;
+    height: 300px;
+    background-color: none;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin: 10px;
+    /*text-align: justify;*/   
+}
+#divRight{
+    background-color: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: normal;
+    /*font-size: 30px;
+    font-weight: 500;*/
+}
+/*#divRight p{
+    padding-top: ;
+    color: white;
+}*/
+#Links{
+    color: white;
+}
+#LinksA{
+    text-decoration: none rgb(255, 255, 255); color: white;
+}
+#asideLeft{
+    width: 1090px;
+    height: 700px;
+}
+#articleLeft{
+    width: 400px;
+    height: 340px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 100px;
+    padding-left: 0px;
+    float: left;
+}
+/*#divLeft{
+    
+}*/
+#divLeft img{
+    width:400px;
+    height: 300px;
+    text-align: center;
+}
+#code{
+    width: 120px;
+    margin: auto;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+#code:hover{
+    transform: scale(1.4);
+}
+
+footer{
+    width: 100%;
+    background-color: brown;
+    height: 70px;
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+}
+#contact{
+    text-align: center;
+    padding-top: 18px;
+}
+#contact img{
+    width: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+/*#contact img:hover{
+    width: 40px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ffffff;
+
+}*/
